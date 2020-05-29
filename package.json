@@ -1,0 +1,29 @@
+{
+  "name": "tailwind-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/assets/css/tailwind.css",
+    "start": "npm run build && live-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lileiva/tailwind-init.git"
+  },
+  "keywords": [],
+  "author": "lileiva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lileiva/tailwind-init/issues"
+  },
+  "homepage": "https://github.com/lileiva/tailwind-init#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
